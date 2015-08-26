@@ -1,0 +1,36 @@
+{
+  "name": "d3-geomap",
+  "version": "1.1.0",
+  "authors": [
+    "Ramiro Gómez",
+    "Reuben Cummings <reubano@gmail.com>"
+  ],
+  "description": "A reusuable geomap for d3.js",
+  "main": [
+    "compiled/utils.js",
+    "compiled/geomap.js",
+    "compiled/choropleth.js",
+    "sass/geomap.sass"
+  ],
+  "dependencies": {
+    "colorbrewer": "~1.0",
+    "d3": "^3.5.5",
+    "d3-geo-projection": "^0.2.15",
+    "topojson": "^1.6.19"
+  },
+  "keywords": [
+    "d3",
+    "visualization",
+    "map",
+    "svg"
+  ],
+  "license": "MIT",
+  "homepage": "https://github.com/reubano/d3-geomap",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ]
+}
